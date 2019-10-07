@@ -5,6 +5,9 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
 # Initialize csv to read the train and test dataset
+'''
+Download the csv files from : https://github.com/benniejoseph/ML_LinearRegression
+'''
 train_data = pd.read_csv('Train.csv')
 test_data = pd.read_csv('Test.csv')
 
