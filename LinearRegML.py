@@ -5,8 +5,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
 # Initialize csv to read the train and test dataset
-train_data = pd.read_csv('train.csv')
-test_data = pd.read_csv('test.csv')
+train_data = pd.read_csv('Train.csv')
+test_data = pd.read_csv('Test.csv')
 
 print(train_data.head())
 
